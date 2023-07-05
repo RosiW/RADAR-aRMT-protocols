@@ -1,0 +1,62 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "Hashimoto questionnaire",
+  "healthIssues": [
+    "Hashimoto"
+  ],
+  "protocols": [
+    {
+      "name": "Hashimoto",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Hashimoto/hashimoto-armt.json",
+        "name": "hashimoto",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1140                    
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        }
+      }
+    }
+    
+  ]
+}
