@@ -10,7 +10,7 @@
       "name": "Hashimoto",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RosiW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Hashimoto/hashimoto-armt.json",
+        "repository": "https://raw.githubusercontent.com/RosiW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "hashimoto",
         "avsc": "notification"
       },
